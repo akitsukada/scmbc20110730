@@ -1,0 +1,28 @@
+h1 {
+  background-color:#aaf;
+  padding: 10px 5px;
+}
+
+h2 {
+  background-color:#ccc;
+  padding: 4px 2px;
+  margin: 0 7px;
+}
+
+p {
+  padding: 4px 2px;
+  margin: 0 7px;
+}
+
+dl {
+  padding: 4px 2px;
+  margin: 0 7px;
+}
+
+dt {
+
+}
+
+dd {
+
+}
