@@ -52,6 +52,35 @@
       <dt>git log --graph</dt>
       <dd>コミット履歴のブランチ間の関係をグラフ表示する。</dd>
     </dl>
+      <h3>■git で branch の作り方</h3>
+      <pre>
+      $ git branch ブランチ名
+      </pre>
+      作成後は<br />
+      <pre>
+      $ git branch
+      </pre> 
+      で確認できます。<br />
+    </p>
+      <h3>■作成したブランチをリモートレポジトリに追加</h3>
+      <pre>
+      $ git push
+      </pre>
+      <h3>■ブランチの切り替え</h3>
+      <pre>
+      $ git branch -b ローカルブランチ名 リモートブランチ名
+      </pre>
+    <p>
+      切り替わっているか確認したかったら<br />
+      <pre>
+      $ git branch
+      </pre>
+      をして<br />
+      <pre>
+      * ローカルブランチ名
+      master
+      </pre>
+      とかなっていればOK <br />
     </p>
   </body>
 </html>
